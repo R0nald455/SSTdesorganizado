@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Preguntas | 5s SST CBA</title>
+        <link rel="stylesheet" href="../Proyecto SENA/css/styles.css">
+        <link rel="icon" href="../Proyecto SENA/img/Sena_Colombia_logo.ico">
+    </head>
+
+        <body>
+
+            <header>
+                    <div class="header__superior">
+            
+                        <div class="logo">
+                            <img src="./img/LogoSena.png" alt="">
+                        </div>
+            
+                        <div class="tittle"><b>Preguntas 5s</b><br> Centro de Biotecnologia <br> Agropecuaria </div>
+            
+                        <div class="search">
+            
+                            <input type="search" placeholder="¿Que deseas buscar?">
+                            <a href="https://www.mintrabajo.gov.co/web/guest" target="_blank"> <img src="./img/MinTrabajo.png" class="MinTrabajo"> </a> <img>
+            
+                        </div>
+            
+                    </div>
+            
+                
+                </header>
+            
+                <div class="container__menu">
+            
+                    <div class="menu">
+            
+                                    <input type="checkbox" id="check__menu">
+                                    <label for="check__menu" class="lbl-menu">
+                                        <span id="spn1"></span>
+                                        <span id="spn2"></span>
+                                        <span id="spn3"></span>
+                                    </label>
+                        <nav>
+                            <ul>
+                                <li><a href="#" id="selected">Inicio</a></li>
+                                <li><a href="#">Modulos</a>
+                                    <ul> <b>
+                                        <li><a href="#">Gestor Normativo</a></li>
+                                        <li><a href="#">Tarjeta de Observacion</a></li>
+                                        <li><a href="../Proyecto SENA/inventarios.html">Inventario</a></li>
+                                        <li><a href="#">Dotacion</a></li>
+                                        <li><a href="#">Inspecciones</a></li>
+                                        <li><a href="#">Brigadistas</a></li>
+                                        <li><a href="#">Modulo de las 5s</a></li>
+                                    </ul> </b>
+                                </li>
+                                <li><a href="#">¿Quienes somos?</a></li>
+                                <li><a href="#">Ayuda y Soporte</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            <marquee class="anuncios_parroquiales">
+                <h1 class="anuncio">Hola, bienvenidos a el modulo de las 5s exclusivo para personas autorizadas
+                </h1>
+            </marquee>
+
+                <center>
+                    <form class="formulario-5s" action="php/Base_5s.php" method="post">
+                    <h1 class="titulo__5s">Preguntas 5s</h1>
+                    <div class="multibox">
+                        <select name="Preguntas" id="Preguntas">
+                            <option>Seleccione alguna consulta</option>
+                            <option value="1">¿Cuantas propiedades hay en clasificacion?</option>
+                            <option value="2">¿Cual es la media de las calificaciones de estandarizacion.?</option>
+                            <option value="3">¿Cuales son las propiedades que estan en limpieza?</option>
+                            <option value="4">¿Cuales son las propiedades de todas las entidades?</option>
+                            <option value="5">¿Cual es la media de las calificaciones de limpieza?</option>
+                            <option value="6">¿Cual es el promedio de calificaciones de organizacion?</option>
+                            <option value="7">¿Cual es el ID de la propiedad de estandarizacion "Suciedad en áreas públicas"?
+                            </option>
+                            <option value="8">¿Cual es el verificar de la propiedad de disciplina "Orden en escritorios, sillas
+                                y repisas"?</option>
+                            <option value="9">¿Cual es la calificacion de el id 1 y el id 4 en clasificacion?</option>
+                            <option value="10">¿Cuantos "Si se cumple siempre" hay en la tabla organizacion ?</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="custom-btn btn-4" name="registrar"><span>CONSULTAR</span></button>
+                    </form>
+            </div>
+                </center>
+
+
+            <footer class="footer-5s">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>&copy;Servicio Nacional de Aprendizaje SENA - Centro de Biotecnologia Agropecuaria - Regional Cundinamarca
+                    Dirección: Km 7 Via Bogota-Mosquera Cundinamarca - Telefono: (1) 5462323 Ext. 17967
+                    Conmutador Nacional (57 1) 5461500
+                    Atención telefónica: lunes a viernes 7:30 a.m. a 4:30 P.M
+                    Atención al ciudadano: Bogotá (57 1) 5925555 - Línea gratuita y resto del país 018000 910270
+                    Atención al empresario: Bogotá (57 1) 4049494 - Línea gratuita y resto del país 018000 910682 &middot; <a
+                        href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+        </body>
+    </html>
+
+<!-- <?php
+    include("./php/Base_5s.php");
+?> -->

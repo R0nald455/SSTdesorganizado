@@ -1,0 +1,51 @@
+body {
+  font-family: 'Fjalla One', sans-serif;
+  background-color: #D5D5D5;
+}
+#header {
+  margin: 1% 1% 1% 1%;
+  background-color:#fc7323;
+  color: black;
+}
+.imagen{
+  margin-left: 0px;
+}
+#reset{
+  margin-top: 20px;
+  color: black;
+}
+.row {
+  padding: 0% 1% 0 2%;
+}
+#freq-sev {
+  padding: 0% 10% 0% 10%;
+}
+#freq-info, #sev-info {
+  padding: 1% 0% 0% 5%;
+}
+#info-freq, #info-sev {
+  margin-bottom: 2%
+}
+#freq-btns, #sev-btns {
+  margin: 0% 1% 0% 0%
+}
+.show {
+    visibility: visible;
+}
+.hide {
+    visibility: hidden;
+}
+#result {
+  color: white;
+}
+
+/* Colores de los resultados */
+#alto {
+  background-color: red;
+}
+#medio{
+  background-color: yellow;
+}
+#bajo{
+  background-color: green;
+}
